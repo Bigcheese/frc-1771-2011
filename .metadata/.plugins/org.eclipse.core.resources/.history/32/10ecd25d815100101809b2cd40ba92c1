@@ -1,0 +1,446 @@
+#include "WPILib.h"
+#include "Elevator.h"
+#include "DashboardDataSender.h"
+#include <nivision.h>
+#include <math.h>
+
+/*
+ * Lights: H - 157, 184
+ *         S - 84, 255
+ *         L - 19, 126
+ */
+
+float rangeness(float e) {
+  if (e > 1)
+    e = 1;
+  else if (e < -0.8)
+    e = -0.8;
+  else if ((e < 0.80) && (e > 0.1))
+    e = 0.80;
+  else if ((e > -0.35) && (e < -0.1))
+    e = -0.35;
+  else if (e <= 0.1 && e >= -0.1)
+    e = 0;
+  return e;
+}
+
+double absd(double in) {
+  if (in < 0)
+    return -in;
+  return in;
+}
+
+class VexUltrasonic {
+  DigitalOutput pinger;
+  Counter echotimer;
+  Notifier pingNote;
+public:
+  VexUltrasonic(UINT32 inputChannel, UINT32 outputChannel)
+  : pinger(inputChannel)
+  , echotimer(outputChannel)
+  , pingNote(PingTask, this) {
+    echotimer.SetMaxPeriod(1.0);
+    echotimer.SetSemiPeriodMode(true);
+    echotimer.Reset();
+    echotimer.Start();
+    pingNote.StartPeriodic(0.05);
+  }
+  
+  static void PingTask(void *s) {
+    VexUltrasonic &self = *reinterpret_cast<VexUltrasonic*>(s);
+    self.echotimer.Reset();
+    self.pinger.Pulse(4.0e-6);
+  }
+  
+  double GetDistance() {
+    return (echotimer.GetPeriod() / 2.0) * 1116.43701;
+  }
+  
+};
+
+enum AutonState {
+  AS_GoUp,
+  AS_DriveForward,
+  AS_Shoot,
+  AS_Down,
+  AS_Back,
+  AS_Turn,
+  AS_Stop,
+  AS_ContinueForward
+};
+
+class DriveOnly : public SimpleRobot {
+public:
+  AxisCamera &camera;
+  Gyro gyro;
+  VexUltrasonic ultraho;
+  DashboardDataSender dds;
+  CANJaguar left0, left1, right0, right1, rollerTop, rollerBottom, uppyDowny;
+  Joystick left, right, manip; 
+  Compressor blower;  
+  Encoder leftSide;
+  Encoder rightSide;
+  Encoder HeightEnc;
+  Solenoid shift;
+  Solenoid minibotDown;
+  Solenoid minibotFire; 
+  Notifier heightUpdater;
+  Notifier autonUpdater;
+  volatile float HeightSetpoint;
+  volatile float Error;
+  volatile float UnfilteredOutput;
+  bool HighGear;
+  double leftPrevDist, rightPrevDist;
+  double leftPrevTime, rightPrevTime;
+  volatile float desiredAngle;
+  volatile float targetArea;
+  AutonState autonState;
+  double speedSlower;
+  Solenoid floorPickup;
+  DriveOnly()
+  : camera(AxisCamera::GetInstance())
+  , gyro(2)
+  , ultraho(7, 8)
+  , dds()
+  , left0(13)
+  , left1(28)
+  , right0(25)
+  , right1(22)
+  , rollerTop(29)
+  , rollerBottom(20)
+  , uppyDowny(27)
+  , left(1)
+  , right(2)
+  , manip(3)
+  , blower(1, 1)
+  , leftSide(2, 3, Encoder::k2X)
+  , rightSide(4, 5, Encoder::k2X)
+  , HeightEnc(11, 12, Encoder::k4X)
+  , shift(1)
+  , minibotDown(2)
+  , minibotFire(3)
+  , heightUpdater(DriveOnly::UpdateElevator, this)
+  , autonUpdater(DriveOnly::UpdateAutonDrive, this)
+  , HeightSetpoint(0)
+  , HighGear(false)
+  , leftPrevDist(0)
+  , rightPrevDist(0)
+  , leftPrevTime(0)
+  , rightPrevTime(0)
+  , desiredAngle(0)  
+  , autonState(AS_DriveForward)
+  , speedSlower(1)
+  , floorPickup(4) 
+  {
+    gyro.SetSensitivity(0.007);
+    blower.Start();
+    leftSide.SetDistancePerPulse(0.00217880746604 * 4);
+    rightSide.SetDistancePerPulse(0.00217880746604 * 4);
+    leftSide.Start();
+    rightSide.Start();
+    HeightEnc.SetDistancePerPulse(0.0031298904538341 * 4);
+    HeightEnc.Start();
+    floorPickup.Set(false);
+  }
+  
+  /*static void UpdateDriveEncoders(void *s) {
+    DriveOnly &self = *reinterpret_cast<DriveOnly*>(s);
+    float leftSideValue = self.leftSide.GetRaw();
+    float rightSideValue = self.rightSide.GetRaw();
+    printf("Left: %f - Right: %f\n", leftSideValue, rightSideValue);
+  }*/
+    
+  static void UpdateElevator(void *s) {
+    DriveOnly &self = *reinterpret_cast<DriveOnly*>(s);
+    float current = self.HeightEnc.GetDistance();    
+    float error = (self.HeightSetpoint - current);
+    float output = rangeness(error / 8) + 0.11;
+    self.uppyDowny.Set(output);
+    self.Error = error;
+    self.UnfilteredOutput = error / 8;
+  }
+  
+  static void UpdateAutonDrive(void *s) {
+    DriveOnly &self = *reinterpret_cast<DriveOnly*>(s);
+
+    switch (self.autonState) {
+      case AS_GoUp: {
+        self.left0.Set(0);
+        self.left1.Set(0);
+        self.right0.Set(0);
+        self.right1.Set(0);
+        self.HeightSetpoint = 72;
+        if (absd(self.HeightEnc.GetDistance() - self.HeightSetpoint) < 2.0)
+          self.autonState = AS_DriveForward;
+      }
+      break;
+      case AS_DriveForward: {
+        self.HeightSetpoint = 35;
+        if (self.targetArea != 0 ) {
+          float current = self.gyro.GetAngle();
+          float error = self.desiredAngle - current;
+          float output = error / 35;
+          if (output > .8)  output = .8;
+          if (output < -.8) output = -.8;
+          if (output < .2 && output > .1) output = .2;
+          if (output > -.2 && output < -.1) output = -.2;
+          if (output <= .1 && output >= -.1) output = 0;
+          
+          output *= ((100 - self.targetArea) / 100);
+          
+          float speed = 0;
+          if (self.ultraho.GetDistance() > 3) {
+            float speedness = ((100 - self.targetArea) / 100) * 10;
+            if (speedness > 0.8) speedness = 0.8;
+            if (speedness < 0.5) speedness = 0.5;
+            speed = ((20 - absd(error)) / 40) * speedness;
+          } else if (self.ultraho.GetDistance() <= 3) {
+            speed = 0;
+            self.autonState = AS_GoUp;
+          }
+          self.left0.Set(-output - speed);
+          self.left1.Set(-output - speed);
+          self.right0.Set(-output + speed);
+          self.right1.Set(-output + speed);
+        } else {
+          self.left0.Set(0);
+          self.left1.Set(0);
+          self.right0.Set(0);
+          self.right1.Set(0);
+        }
+      }
+      break;
+      case AS_Shoot: {
+        self.left0.Set(0);
+        self.left1.Set(0);
+        self.right0.Set(0);
+        self.right1.Set(0);
+        self.rollerTop.Set(1);
+        self.rollerBottom.Set(-1);
+        Wait(.5);
+        self.autonState = AS_Down;
+      }
+      break;
+      case AS_Down: {
+        self.left0.Set(0);
+        self.left1.Set(0);
+        self.right0.Set(0);
+        self.right1.Set(0);
+        self.rollerTop.Set(0);
+        self.rollerBottom.Set(0);
+        self.HeightSetpoint = 0;
+        self.autonState = AS_Back;
+      }
+      break;
+      case AS_Back: {
+        self.left0.Set(.4);
+        self.left1.Set(.4);
+        self.right0.Set(-.4);
+        self.right1.Set(-.4);
+        self.rollerTop.Set(0);
+        self.rollerBottom.Set(0);
+        self.HeightSetpoint = 0;
+        if(self.HeightEnc.GetDistance() <= 1.1771) {
+          self.autonState = AS_Turn;
+        }
+      }
+      break;
+      case AS_Turn: {
+        float gyroValue = self.gyro.GetAngle();
+        if(gyroValue >= -180) {
+          self.left0.Set(.5);
+          self.left1.Set(.5);
+          self.right0.Set(.5);
+          self.right1.Set(.5);
+        } else {
+          // self.autonState = AS_ContinueForward;
+          self.left0.Set(0);
+          self.left1.Set(0);
+          self.right0.Set(0);
+          self.right1.Set(0);
+        }
+      }
+      break;
+      case AS_ContinueForward: {
+        self.left0.Set(-.8);
+        self.left1.Set(-.8);
+        self.right0.Set(.8);
+        self.right1.Set(.8);
+      }
+            break;    
+      case AS_Stop: {
+        self.left0.Set(0);
+        self.left1.Set(0);
+        self.right0.Set(0);
+        self.right1.Set(0);
+      }
+      break;
+    }
+  }
+  
+  void Autonomous(void) {
+    targetArea = 0;
+    autonState = AS_DriveForward;
+    heightUpdater.StartPeriodic(0.05);
+    left0.ConfigNeutralMode(CANJaguar::kNeutralMode_Brake);
+    left1.ConfigNeutralMode(CANJaguar::kNeutralMode_Brake);
+    right0.ConfigNeutralMode(CANJaguar::kNeutralMode_Brake);
+    left1.ConfigNeutralMode(CANJaguar::kNeutralMode_Brake);
+    autonUpdater.StartPeriodic(0.05);
+    float centerX;
+    float centerY;
+    HSLImage *frame = new HSLImage;
+    BinaryImage *mask = 0;
+    while (IsAutonomous() && !IsDisabled()) {
+      m_ds->GetPacketNumber();
+      Threshold t(161, 182, 92, 255, 13, 89);
+
+      float angleAtImageTime = gyro.GetAngle();
+      camera.GetImage(frame);
+      mask = frame->ThresholdHSL(t);
+
+      int num = mask->GetNumberParticles();
+
+      unsigned rect[4];
+      ParticleAnalysisReport best = { 0 };
+      float best_angle = 9999999999999999.0;
+      for (int i = 0; i < num; ++i) {
+        ParticleAnalysisReport report = mask->GetParticleAnalysisReport(i);
+        // Find the target clostest to 0 angle.
+        if (report.particleToImagePercent < 0.05)
+          continue;
+        if (absd(report.center_mass_x_normalized) < best_angle) {
+          best = report;
+          best_angle = absd(report.center_mass_x_normalized);
+        }
+      }
+
+      float angleOffset = 0;
+      if (best.particleToImagePercent > 0.000001) {
+        // Calculate desired angle.
+        centerX = best.center_mass_x_normalized;
+        centerY = best.center_mass_y_normalized;
+        
+        angleOffset = centerX * 20;
+        desiredAngle = angleAtImageTime + angleOffset;
+        targetArea = best.particleToImagePercent;
+        
+        rect[0] = best.boundingRect.left;
+        rect[1] = best.boundingRect.top;
+        rect[2] = best.boundingRect.width;
+        rect[3] = best.boundingRect.height;
+      } else {
+        angleOffset = 0;
+        desiredAngle = gyro.GetAngle();
+        targetArea = 0;
+        
+        rect[0] = 0;
+        rect[1] = 0;
+        rect[2] = 0;
+        rect[3] = 0;
+      }
+      dds.sendVisionData(rect, desiredAngle, targetArea);
+      dds.sendIOPortData(0, 0, 0, 0, 0, gyro.GetAngle());
+      delete mask;
+      Wait(.05);
+    }
+    delete frame;
+    autonUpdater.Stop();
+    heightUpdater.Stop();
+  }
+  
+  void OperatorControl(void) {
+    left0.ConfigNeutralMode(CANJaguar::kNeutralMode_Coast);
+    left1.ConfigNeutralMode(CANJaguar::kNeutralMode_Coast);
+    right0.ConfigNeutralMode(CANJaguar::kNeutralMode_Coast);
+    left1.ConfigNeutralMode(CANJaguar::kNeutralMode_Coast);
+    heightUpdater.StartPeriodic(.05);
+    while (IsOperatorControl() && !IsDisabled()) {
+      Wait(0.01);
+      m_ds->GetPacketNumber();
+      // rd.TankDrive(left, right);
+      left0.Set(left.GetY() * speedSlower);
+      left1.Set(left.GetY() * speedSlower);
+      right0.Set(-right.GetY() * speedSlower);
+      right1.Set(-right.GetY() * speedSlower);
+      if (manip.GetRawButton(2))
+        HeightSetpoint = 0;
+      else if (manip.GetRawButton(7))
+        HeightSetpoint = 72;
+      else if (manip.GetRawButton(8))
+        HeightSetpoint = 79;
+      else if (manip.GetRawButton(9))
+        HeightSetpoint = 35;
+      else if(manip.GetRawButton(10))
+        HeightSetpoint = 43;
+      else if (manip.GetRawButton(11))
+        HeightSetpoint = 5;
+      else if (manip.GetRawButton(12))
+        HeightSetpoint = 25;
+
+      if (manip.GetRawButton(1)) {
+        rollerTop.Set(1);
+        rollerBottom.Set(-1);
+      } else if (manip.GetRawButton(3)) { //suck in
+        rollerTop.Set(-1);
+        rollerBottom.Set(1);
+      } else if (manip.GetRawButton(6)) { //flip up
+        rollerTop.Set(-1);
+        rollerBottom.Set(-0.3);
+      } else if (manip.GetRawButton(4)) { //flip down
+        rollerTop.Set(0.3);
+        rollerBottom.Set(1);
+      } else {
+        rollerTop.Set(0);
+        rollerBottom.Set(0);
+      }
+      
+      double time = GetTime();
+      double left_dist = leftSide.GetDistance();
+      double right_dist = rightSide.GetDistance();
+      double left_rate = (left_dist - leftPrevDist) / (time - leftPrevTime);
+      double right_rate = (right_dist - rightPrevDist) / (time - rightPrevTime);
+      leftPrevDist = left_dist;
+      rightPrevDist = right_dist;
+      leftPrevTime = time;
+      rightPrevTime = time;
+
+      // printf("left: %f, right: %f, Speed! %f\n", left_rate, right_rate, absd((left_rate + right_rate) / 2));
+      if (!HighGear && absd((left_rate + right_rate) / 2) > 6.0) {
+        shift.Set(true);
+        HighGear = true;
+      } else if (HighGear && absd((left_rate + right_rate) / 2) < 4.0) {
+        shift.Set(false);
+        HighGear = false;
+      }
+      
+      if (left.GetRawButton(2)){
+        speedSlower = 1;
+        minibotDown.Set(false);
+      } if (right.GetRawButton(2)){
+        speedSlower = .5;
+        minibotDown.Set(true);
+      } if (right.GetRawButton(1) && minibotDown.Get()) {
+        minibotFire.Set(true);
+      } else {
+        minibotFire.Set(false);
+      }
+      
+      if(manip.GetRawButton(5)) {
+        rollerTop.Set(-1);
+        rollerBottom.Set(1);
+        floorPickup.Set(true);        
+      } else{       
+        floorPickup.Set(false);
+      }
+      
+      
+      
+      // printf("Hello from the UltraHO!!!!! %f\n", ultraho.GetDistance());
+      dds.sendIOPortData(HeightSetpoint, HeightEnc.GetDistance(), uppyDowny.Get(), Error, UnfilteredOutput, gyro.GetAngle());
+    }
+    heightUpdater.Stop();
+  }
+};
+
+START_ROBOT_CLASS(DriveOnly);

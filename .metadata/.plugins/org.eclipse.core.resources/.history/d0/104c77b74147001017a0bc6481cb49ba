@@ -1,0 +1,192 @@
+#include "WPILib.h"
+#include "Elevator.h"
+#include "DashboardDataSender.h"
+#include <math.h>
+
+float rangeness(float e) {
+  if (e > 1)
+    e = 1;
+  else if (e < -0.8)
+    e = -0.8;
+  else if ((e < 0.80) && (e > 0.1))
+    e = 0.80;
+  else if ((e > -0.35) && (e < -0.1))
+    e = -0.35;
+  else if (e <= 0.1 && e >= -0.1)
+    e = 0;
+  return e;
+}
+
+double absd(double in) {
+  if (in < 0)
+    return -in;
+  return in;
+}
+
+class DriveOnly : public SimpleRobot {
+public:
+  DashboardDataSender dds;
+  CANJaguar left0, left1, right0, right1 , sideShift, rollerTop, rollerBottom, uppyDowny;
+  Joystick left, right, manip; 
+  Compressor blower;  
+  Encoder leftSide;
+  Encoder rightSide;
+  Encoder HeightEnc;
+  Encoder SideEnc;
+  Solenoid shift;
+  Notifier heightUpdater;
+  volatile float HeightSetpoint;
+  volatile float Error;
+  volatile float UnfilteredOutput;
+  bool HighGear;
+  double leftPrevDist, rightPrevDist;
+  double leftPrevTime, rightPrevTime;
+  
+  DriveOnly()
+  : dds()
+  , left0(13)
+  , left1(24)
+  , right0(12)
+  , right1(30)
+  , sideShift(26)
+  , rollerTop(25)
+  , rollerBottom(23)
+  , uppyDowny(11)
+  , left(1)
+  , right(2)
+  , manip(3)
+  , blower(1, 1)
+  , leftSide(2, 3, Encoder::k2X)
+  , rightSide(4, 5, Encoder::k2X)
+  , HeightEnc(11, 12, Encoder::k4X)
+  , SideEnc(13, 14, Encoder::k1X)
+  , shift(1)
+  , heightUpdater(DriveOnly::UpdateElevator, this)
+  , HeightSetpoint(0)
+  , HighGear(false)
+  , leftPrevDist(0)
+  , rightPrevDist(0)
+  , leftPrevTime(0)
+  , rightPrevTime(0)
+  {
+    blower.Start();
+    leftSide.SetDistancePerPulse(0.00217880746604 * 4);
+    rightSide.SetDistancePerPulse(0.00217880746604 * 4);
+    leftSide.Start();
+    rightSide.Start();
+    HeightEnc.SetDistancePerPulse(0.0031298904538341 * 4);
+    HeightEnc.Start();
+    SideEnc.Start();
+  }
+  
+  /*static void UpdateDriveEncoders(void *s) {
+    DriveOnly &self = *reinterpret_cast<DriveOnly*>(s);
+    float leftSideValue = self.leftSide.GetRaw();
+    float rightSideValue = self.rightSide.GetRaw();
+    printf("Left: %f - Right: %f\n", leftSideValue, rightSideValue);
+  }*/
+    
+  static void UpdateElevator(void *s) {
+    DriveOnly &self = *reinterpret_cast<DriveOnly*>(s);
+    float current = self.HeightEnc.GetDistance();
+    
+    float error = (self.HeightSetpoint - current);
+    float output = rangeness(error / 8);
+    self.uppyDowny.Set(output);
+    self.Error = error;
+    self.UnfilteredOutput = error / 8;
+  }
+  
+  void Autonomous() {
+    while (IsAutonomous() && !IsDisabled()) {
+      uppyDowny.Set(0.4);
+    }
+  }
+  
+  void OperatorControl(void) {
+    heightUpdater.StartPeriodic(.05);
+    while (IsOperatorControl() && !IsDisabled()) {
+      Wait(0.01);
+      m_ds->GetPacketNumber();
+      // rd.TankDrive(left, right);
+      left0.Set(left.GetY());
+      left1.Set(left.GetY());
+      right0.Set(-right.GetY());
+      right1.Set(-right.GetY());
+      sideShift.Set(manip.GetX());
+      // uppyDowny.Set(-manip.GetY());
+  if (manip.GetRawButton(2))
+        //HeightSetpoint = 5;
+      {
+        HeightSetpoint = 0;
+      }
+      else if (manip.GetRawButton(7))
+        //HeightSetpoint = 35;
+      {
+        HeightSetpoint = 72;
+      }
+      else if (manip.GetRawButton(8))
+        //HeightSetpoint = 43;
+        HeightSetpoint = 79;
+      else if (manip.GetRawButton(9))
+        HeightSetpoint = 35;
+      else if (manip.GetRawButton(11))
+        HeightSetpoint = 5;
+      
+      /*if (manip.GetRawButton(9))
+        HeightEnc.Reset();*/
+      if (manip.GetRawButton(1))
+          //HeightSetpoint = 0;
+        {
+          rollerTop.Set(1);
+          rollerBottom.Set(-1);
+        }
+      else if (manip.GetRawButton(3)) { //suck in
+        rollerTop.Set(-1);
+        rollerBottom.Set(1);
+      } else if (manip.GetRawButton(6)) { //flip up
+        rollerTop.Set(-1);
+        rollerBottom.Set(-0.3);
+      } else if (manip.GetRawButton(4)) { //flip down
+        rollerTop.Set(0.3);
+        rollerBottom.Set(1);
+      } //else if (manip.GetRawButton(10)) {
+        //rollerTop.Set(1);
+        //rollerBottom.Set(-1);
+       else {
+        rollerTop.Set(0);
+        rollerBottom.Set(0);
+      }
+      
+      /*if(manip.GetRawButton(8)) {
+        leftSide.Reset();
+        rightSide.Reset();
+      }*/
+      
+      double time = GetTime();
+      double left_dist = leftSide.GetDistance();
+      double right_dist = rightSide.GetDistance();
+      double left_rate = (left_dist - leftPrevDist) / (time - leftPrevTime);
+      double right_rate = (right_dist - rightPrevDist) / (time - rightPrevTime);
+      leftPrevDist = left_dist;
+      rightPrevDist = right_dist;
+      leftPrevTime = time;
+      rightPrevTime = time;
+      
+      
+      // printf("left: %f, right: %f, Speed! %f\n", left_rate, right_rate, absd((left_rate + right_rate) / 2));
+      if (!HighGear && absd((left_rate + right_rate) / 2) > 6.0) {
+        shift.Set(true);
+        HighGear = true;
+      } else if (HighGear && absd((left_rate + right_rate) / 2) < 4.0) {
+        shift.Set(false);
+        HighGear = false;
+      }
+      
+      dds.sendIOPortData(HeightSetpoint, HeightEnc.GetDistance(), uppyDowny.Get(), Error, UnfilteredOutput);
+    }
+    heightUpdater.Stop();
+  }
+};
+
+START_ROBOT_CLASS(DriveOnly);

@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window height="800" maximized="true" width="1340" x="321" y="16">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.windriver.analysis.windview.actionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.windriver.ide.target.ui.actionset.global" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="viPlugin.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Application Development">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="DriveOnly.cpp" partName="DriveOnly.cpp" path="C:/Users/Michael/Dropbox/FRC/2011/Workspace/DriveOnly/DriveOnly.cpp" title="DriveOnly.cpp" tooltip="DriveOnly/DriveOnly.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DriveOnly/DriveOnly.cpp"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="8527"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DashboardDataSender.cpp" partName="DashboardDataSender.cpp" path="C:/Users/Michael/Dropbox/FRC/2011/Workspace/DriveOnly/DashboardDataSender.cpp" title="DashboardDataSender.cpp" tooltip="DriveOnly/DashboardDataSender.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DriveOnly/DashboardDataSender.cpp"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="523"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DashboardDataSender.h" partName="DashboardDataSender.h" path="C:/Users/Michael/Dropbox/FRC/2011/Workspace/DriveOnly/DashboardDataSender.h" title="DashboardDataSender.h" tooltip="DriveOnly/DashboardDataSender.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DriveOnly/DashboardDataSender.h"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="283"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Dashboard.h" partName="Dashboard.h" title="Dashboard.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Dashboard.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Dashboard.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1896"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Elevator.h" partName="Elevator.h" path="C:/Users/Michael/Dropbox/FRC/2011/Workspace/DriveOnly/Elevator.h" title="Elevator.h" tooltip="DriveOnly/Elevator.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DriveOnly/Elevator.h"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="SimpleRobot.h" partName="SimpleRobot.h" title="SimpleRobot.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/SimpleRobot.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\SimpleRobot.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="10" selectionOffset="715"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Encoder.cpp" partName="Encoder.cpp" title="Encoder.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Encoder.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Encoder.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2325"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Encoder.h" partName="Encoder.h" title="Encoder.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Encoder.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Encoder.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1787"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Counter.h" partName="Counter.h" title="Counter.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Counter.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Counter.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1118"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Counter.h" partName="Counter.h" title="Counter.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Counter.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Counter.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Counter.cpp" partName="Counter.cpp" title="Counter.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Counter.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Counter.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="17" selectionOffset="11206"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Resource.h" partName="Resource.h" title="Resource.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Resource.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Resource.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="938"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="AxisCamera.h" partName="AxisCamera.h" title="AxisCamera.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Vision/AxisCamera.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Vision\AxisCamera.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="8" selectionOffset="1366"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="AxisCamera.cpp" partName="AxisCamera.cpp" title="AxisCamera.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Vision/AxisCamera.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Vision\AxisCamera.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="3398"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="HSLImage.cpp" partName="HSLImage.cpp" title="HSLImage.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Vision/HSLImage.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Vision\HSLImage.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="851"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ColorImage.cpp" partName="ColorImage.cpp" title="ColorImage.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Vision/ColorImage.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Vision\ColorImage.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="914"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Gyro.h" partName="Gyro.h" title="Gyro.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Gyro.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Gyro.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="4" selectionOffset="1027"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Gyro.cpp" partName="Gyro.cpp" title="Gyro.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Gyro.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Gyro.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="532"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Threshold.h" partName="Threshold.h" title="Threshold.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Vision/Threshold.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Vision\Threshold.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="852"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ImageBase.h" partName="ImageBase.h" title="ImageBase.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Vision/ImageBase.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Vision\ImageBase.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="773"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="AxisCamera.h" partName="AxisCamera.h" title="AxisCamera.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Vision/AxisCamera.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Vision\AxisCamera.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1824"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="BinaryImage.h" partName="BinaryImage.h" title="BinaryImage.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Vision/BinaryImage.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Vision\BinaryImage.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="594"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MonoImage.h" partName="MonoImage.h" title="MonoImage.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Vision/MonoImage.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Vision\MonoImage.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="VisionAPI.h" partName="VisionAPI.h" title="VisionAPI.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Vision2009/VisionAPI.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Vision2009\VisionAPI.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="22" selectionOffset="2470"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="CANJaguar.h" partName="CANJaguar.h" title="CANJaguar.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/CANJaguar.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\CANJaguar.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="5" selectionOffset="1073"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalSource.cpp" partName="DigitalSource.cpp" title="DigitalSource.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalSource.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalSource.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalSource.h" partName="DigitalSource.h" title="DigitalSource.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalSource.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalSource.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalInput.cpp" partName="DigitalInput.cpp" title="DigitalInput.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalInput.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalInput.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalInput.h" partName="DigitalInput.h" title="DigitalInput.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalInput.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalInput.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="885"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalOutput.cpp" partName="DigitalOutput.cpp" title="DigitalOutput.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalOutput.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalOutput.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2147"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalOutput.h" partName="DigitalOutput.h" title="DigitalOutput.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalOutput.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalOutput.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="5" selectionOffset="952"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="InterruptableSensorBase.cpp" partName="InterruptableSensorBase.cpp" title="InterruptableSensorBase.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/InterruptableSensorBase.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\InterruptableSensorBase.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="InterruptableSensorBase.h" partName="InterruptableSensorBase.h" title="InterruptableSensorBase.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/InterruptableSensorBase.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\InterruptableSensorBase.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="648"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Ultrasonic.h" partName="Ultrasonic.h" title="Ultrasonic.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Ultrasonic.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Ultrasonic.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Ultrasonic.cpp" partName="Ultrasonic.cpp" title="Ultrasonic.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Ultrasonic.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Ultrasonic.cpp" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2906"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Ultrasonic.h" partName="Ultrasonic.h" title="Ultrasonic.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Ultrasonic.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Ultrasonic.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="9" selectionOffset="2908"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="WPILib.h" partName="WPILib.h" title="WPILib.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/WPILib.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\WPILib.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="5" selectionOffset="1742"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Timer.h" partName="Timer.h" title="Timer.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Timer.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Timer.h" project="DriveOnly"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="600"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<viewState/>
+</view>
+<view id="biz.junginger.newsfeed.eclipse.FeedView" partName="Feeds">
+<viewState/>
+</view>
+<view id="com.windriver.ide.debug.ui.osobjects.KOView" partName="Kernel Objects"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="com.windriver.ide.ui.project.WRFileView" partName="File Navigator"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems">
+<viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="0">
+<selection>
+<element path="Conn///Nancy-PC.VxWorks6x_10.17.71.2"/>
+</selection>
+</viewState>
+</view>
+<view id="com.windriver.ide.ui.build.WRBuildConsoleView" partName="Build Console">
+<viewState>
+<buildArgsViewState traceBuildRun="true">
+<buildArgs selection=""/>
+</buildArgsViewState>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="true" org.eclipse.cdt.ui.editor.CUChildren="false" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState columnWidth0="250" columnWidth1="75" columnWidth2="150" columnWidth3="60" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<columnOrder columnOrderIndex="0"/>
+<columnOrder columnOrderIndex="1"/>
+<columnOrder columnOrderIndex="2"/>
+<columnOrder columnOrderIndex="3"/>
+<columnOrder columnOrderIndex="4"/>
+</viewState>
+</view>
+</views>
+<perspectives activePart="com.windriver.ide.ui.build.WRBuildConsoleView" activePerspective="com.windriver.ide.perspective.ADE">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.windriver.ide.ui.ADEPerspectiveFactory" id="com.windriver.ide.perspective.ADE" label="Application Development"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="com.windriver.ide.debug.ui.osobjects.actionSets"/>
+<alwaysOnActionSet id="com.windriver.ide.devcenter.internal.WROpenDevCenterActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.search.ui.actionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.ui.internal.actions.WROpenDeveloperCenter"/>
+<alwaysOnActionSet id="com.windriver.ide.ui.internal.actions.WROpenOnlineSupport"/>
+<alwaysOnActionSet id="com.windriver.ide.ui.SetEmacsKeys"/>
+<alwaysOnActionSet id="edu.wpi.robotdeploymenttool"/>
+<alwaysOnActionSet id="viPlugin.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.launch.WRLaunchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CodingActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.staticanalysis.ui.NavigationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.OpenActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.target.ui.actionset.global"/>
+<alwaysOnActionSet id="com.windriver.ide.target.ui.rse.actionset.newconnection"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.ui.help.feedback"/>
+<alwaysOnActionSet id="com.windriver.ide.ui.internal.actions.register2eclipse"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<alwaysOnActionSet id="com.windriver.analysis.windview.actionSet"/>
+<alwaysOnActionSet id="com.windriver.analysis.eventreceive.actionSet"/>
+<show_view_action id="com.windriver.ide.debug.ui.osobjects.KOView"/>
+<show_view_action id="org.eclipse.rse.ui.view.systemView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.windriver.ide.ui.project.WRProjectView"/>
+<show_view_action id="com.windriver.ide.ui.project.WRFileView"/>
+<show_view_action id="com.windriver.ide.launch.ui.DebugSymbolBrowserView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="com.windriver.ide.ui.build.WRBuildConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.tm.terminal.view.TerminalView"/>
+<show_view_action id="org.eclipse.cdt.ui.includeBrowser"/>
+<new_wizard_action id="com.windriver.ide.wizard.newComponent"/>
+<new_wizard_action id="com.windriver.ide.ui.build.wizards.WRBuildTargetWizard"/>
+<new_wizard_action id="com.windriver.ide.ocd.ui.jtageditor.wizard.new.file"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.ui.wizards.WRLinuxApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.ui.wizards.WRLinuxUserProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.ui.wizards.WRLinuxPlatformProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.ui.wizards.WRLinuxKernelModuleProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.rtcore.wizards.WRLinuxRTCoreKernelAppProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.rtcore.wizards.WRLinuxRTCoreKernelModuleProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.rtcore.wizards.WRLinuxRTCoreApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WREmbeddedLinuxApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WREmbeddedLinuxKernelProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRStandaloneApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.osconfig.ui.screen.WRBSPProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRDownloadAbleModuleProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxFS.wizards.WRFSWizard"/>
+<new_wizard_action id="com.windriver.ide.osconfig.ui.screen.BIPWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRRealTimeProcessProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRSharedLibProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRVxWorks55ApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653IntegrationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653CRProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653MOSProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653ACEProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653POSProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653ApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653SLProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653SDProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653UCRProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRVxWorks653PlatformProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRVxWorks653ApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRUserProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRNativeApplicationProjectWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRNewFileWizard"/>
+<perspective_action id="org.eclipse.rse.ui.view.SystemPerspective"/>
+<perspective_action id="com.windriver.ide.perspective.ADE"/>
+<perspective_action id="DFE"/>
+<perspective_action id="com.windriver.ide.perspective.OCD"/>
+<perspective_action id="com.windriver.scopetools.memscope.perspective.MemScopePerspective"/>
+<perspective_action id="com.windriver.scopetools.profilescope.perspective.ProfileScopePerspective"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.windriver.ide.ui.project.WRFileView"/>
+<view id="org.eclipse.rse.ui.view.systemView"/>
+<view id="com.windriver.ide.debug.ui.osobjects.KOView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="com.windriver.ide.ui.build.WRBuildConsoleView" style="0">
+<fastViews>
+<view id="biz.junginger.newsfeed.eclipse.FeedView" ratio="0.3"/>
+<view id="org.eclipse.pde.runtime.LogView" ratio="0.3"/>
+<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.29933774"/>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+<view id="com.windriver.ide.ui.build.WRBuildConsoleView" ratio="0.29933774"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29933774"/>
+<view id="org.eclipse.ui.views.ProgressView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.windriver.ide.ui.project.WRFileView" label="File Navigator"/>
+<page content="com.windriver.ide.ui.project.WRProjectView" label="LabelNotFound"/>
+<page content="com.windriver.ide.launch.ui.DebugSymbolBrowserView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1eb1db2" ratio="0.75" ratioLeft="987" ratioRight="329" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.16445066" ratioLeft="235" ratioRight="1194" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.72888285" ratioLeft="535" ratioRight="199" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="biz.junginger.newsfeed.eclipse.FeedView" label="LabelNotFound"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="com.windriver.ide.ui.build.WRBuildConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7294485" ratioLeft="701" ratioRight="260" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info folder="true" part="leftbottom" ratio="0.59945506" ratioLeft="440" ratioRight="294" relationship="4" relative="left">
+<folder activePageID="org.eclipse.rse.ui.view.systemView" appearance="2" expanded="2">
+<page content="org.eclipse.rse.ui.view.systemView" label="Remote Systems"/>
+<page content="com.windriver.ide.debug.ui.osobjects.KOView" label="Kernel Objects"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DriveOnly/DriveOnly.cpp"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Ultrasonic.cpp" project="DriveOnly"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Counter.h" project="DriveOnly"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalOutput.h" project="DriveOnly"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalOutput.cpp" project="DriveOnly"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Counter.cpp" project="DriveOnly"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\WPILib.h" project="DriveOnly"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Timer.h" project="DriveOnly"/>
+</editors>
+<item historyLabel="Counter.h" index="2">
+<position info="not_deleted" x="1013" y="0"/>
+</item>
+<item historyLabel="Counter.h" index="2">
+<position info="not_deleted" x="910" y="0"/>
+</item>
+<item historyLabel="DigitalOutput.h" index="3">
+<position info="not_deleted" x="505" y="0"/>
+</item>
+<item historyLabel="DigitalOutput.h" index="3">
+<position info="not_deleted" x="956" y="0"/>
+</item>
+<item historyLabel="DigitalOutput.cpp" index="4">
+<position/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="181" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="1197" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="707" y="0"/>
+</item>
+<item historyLabel="Counter.cpp" index="5">
+<position info="not_deleted" x="11436" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="718" y="0"/>
+</item>
+<item historyLabel="Ultrasonic.cpp" index="1">
+<position info="not_deleted" x="2906" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="927" y="0"/>
+</item>
+<item historyLabel="Counter.cpp" index="5">
+<position info="not_deleted" x="11206" y="17"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="927" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="927" y="0"/>
+</item>
+<item historyLabel="Ultrasonic.cpp" index="1">
+<position info="not_deleted" x="2906" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="927" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="804" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="1034" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="767" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="1129" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="5808" y="0"/>
+</item>
+<item historyLabel="Counter.h" index="2">
+<position info="not_deleted" x="1118" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="5808" y="0"/>
+</item>
+<item historyLabel="Counter.h" index="2">
+<position info="not_deleted" x="1118" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="16" y="0"/>
+</item>
+<item historyLabel="WPILib.h" index="6">
+<position/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="10" y="6"/>
+</item>
+<item historyLabel="WPILib.h" index="6">
+<position/>
+</item>
+<item historyLabel="Timer.h" index="7">
+<position/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="10" y="6"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="11601" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="11550" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="2786" y="33"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="6448" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="6511" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="1314" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="7022" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="6604" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="6639" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="12405" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="12496" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="12552" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="12553" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="12644" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="12646" y="0"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="2143" y="21"/>
+</item>
+<item historyLabel="DriveOnly.cpp" index="0">
+<position/>
+</item>
+<item active="true" historyLabel="DriveOnly.cpp" index="0">
+<position info="not_deleted" x="3914" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.HeapStatus"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Timer.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Timer.h">
+<persistable path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Timer.h" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WPILib.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/WPILib.h">
+<persistable path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\WPILib.h" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Ultrasonic.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Ultrasonic.h">
+<persistable path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Ultrasonic.h" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Ultrasonic.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Ultrasonic.cpp">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Ultrasonic.cpp" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Ultrasonic.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/Ultrasonic.h">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\Ultrasonic.h" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="InterruptableSensorBase.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/InterruptableSensorBase.h">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\InterruptableSensorBase.h" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="InterruptableSensorBase.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/InterruptableSensorBase.cpp">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\InterruptableSensorBase.cpp" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalOutput.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalOutput.h">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalOutput.h" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalOutput.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalOutput.cpp">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalOutput.cpp" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalInput.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalInput.h">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalInput.h" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalInput.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalInput.cpp">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalInput.cpp" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalSource.h" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalSource.h">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalSource.h" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DigitalSource.cpp" tooltip="C:/WindRiver/WPILib/WPILibC++Source20110216rev2262/WPILib/DigitalSource.cpp">
+<persistable path="C:\WindRiver\WPILib\WPILibC++Source20110216rev2262\WPILib\DigitalSource.cpp" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="CANJaguar.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/CANJaguar.h">
+<persistable path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\CANJaguar.h" project="DriveOnly"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="VisionAPI.h" tooltip="C:/WindRiver/vxworks-6.3/target/h/WPIlib/Vision2009/VisionAPI.h">
+<persistable path="C:\WindRiver\vxworks-6.3\target\h\WPIlib\Vision2009\VisionAPI.h" project="DriveOnly"/>
+</file>
+</mruList>
+</workbench>

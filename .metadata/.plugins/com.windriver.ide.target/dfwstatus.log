@@ -1,0 +1,1488 @@
+DFW status and trace log : Wed Apr 27 22:14:33 2011
+
+22:14:33.312 WARNING: License for Debug Connection Target Server will expire in 4294967295 days
+  SevWarning(1) : UtilLicense.cpp : 545
+22:14:33.425 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 394
+22:14:33.480 ERROR: Feature MPC5200 has no known license key/code
+  SevError(2) : UtilLicense.cpp : 326
+22:14:33.543 ERROR: Unsupported function call: TargetPluginAPI::GetTraceInfo
+  SevError(2) : tccallwrappers.cpp : 4318
+22:14:34.261 ERROR: File not found: C:\WindRiver\workbench-3.0\dfw\0199bb\host\dfwplugins\targetOS\supportfiles\vxWorks6.0\VersionCheck.xml
+  SevError(2) : xmllex.cpp : 52
+22:14:35.064 ERROR: Internal Error: Target connected notice when not connecting
+  SevInternalError(4) : contextstatemanagerimpl.cpp : 519
+22:14:35.200 WARNING: Object file has minimal debug information: /tmpout//FRC_FPGA.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.214 WARNING: Object file has minimal debug information: /tmpout//niserial.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.238 WARNING: Object file has minimal debug information: /tmpout//nivision.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.257 WARNING: Object file has minimal debug information: /tmpout//nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.273 WARNING: Object file has minimal debug information: /tmpout//niorbs.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.317 WARNING: Object file has minimal debug information: /tmpout//nipals.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.414 WARNING: Object file has minimal debug information: /tmpout//lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.453 WARNING: Object file has minimal debug information: /tmpout//target.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.476 WARNING: Object file has minimal debug information: /tmpout//vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.494 WARNING: Object file has minimal debug information: /tmpout//NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.511 WARNING: Object file has minimal debug information: /tmpout//NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.527 WARNING: Object file has minimal debug information: /tmpout//ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.543 WARNING: Object file has minimal debug information: /tmpout//FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.561 WARNING: Object file has minimal debug information: /tmpout//visa32.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.576 WARNING: Object file has minimal debug information: /tmpout//nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.593 WARNING: Object file has minimal debug information: /tmpout//nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.609 WARNING: Object file has minimal debug information: /tmpout//debug.o
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.624 WARNING: Object file has minimal debug information: /tmpout//tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.641 WARNING: Object file has minimal debug information: /tmpout//libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.656 WARNING: Object file has minimal debug information: /tmpout//ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.671 WARNING: Object file has minimal debug information: /tmpout//NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.686 WARNING: Object file has minimal debug information: /tmpout//NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.702 WARNING: Object file has minimal debug information: /tmpout//FRC_BlackJagBridgePlugin.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.717 WARNING: Object file has minimal debug information: /tmpout//NiViRio.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.731 WARNING: Object file has minimal debug information: /tmpout//ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.746 WARNING: Object file has minimal debug information: /tmpout//libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.761 WARNING: Object file has minimal debug information: /tmpout//NiViUsb.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.777 WARNING: Object file has minimal debug information: /tmpout//NiEnAsrl.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.791 WARNING: Object file has minimal debug information: /tmpout//NiViEnet.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.806 WARNING: Object file has minimal debug information: /tmpout//vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.821 WARNING: Object file has minimal debug information: /tmpout//NiViPxi.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.837 WARNING: Object file has minimal debug information: /tmpout//NiViAsrl.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:35.853 WARNING: Object file has minimal debug information: /tmpout//NiViSrvr.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:14:36.350 ERROR: Could not translate '0x3 0x495980 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.350 ERROR: Could not translate '0x3 0x499680 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.350 ERROR: Could not translate '0x3 0x465350 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.351 ERROR: Could not translate '0x3 0x49d358 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.351 ERROR: Could not translate '0x3 0x4a0ca0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.351 ERROR: Could not translate '0x3 0x4bda48 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.351 ERROR: Could not translate '0x3 0x4c5f98 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.352 ERROR: Could not translate '0x3 0x4ce3e8 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.352 ERROR: Could not translate '0x3 0x4d1c48 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.352 ERROR: Could not translate '0x3 0x4d98a0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.352 ERROR: Could not translate '0x3 0x701238 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.353 ERROR: Could not translate '0x3 0x706d60 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.353 ERROR: Could not translate '0x3 0x7093a0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.353 ERROR: Could not translate '0x3 0x7232b0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.353 ERROR: Could not translate '0x3 0x838bf0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.353 ERROR: Could not translate '0x3 0x852de0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.354 ERROR: Could not translate '0x3 0x87bce8 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.354 ERROR: Could not translate '0x3 0x863080 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.354 ERROR: Could not translate '0x3 0x8e84c8 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.354 ERROR: Could not translate '0x3 0x1a3dba0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.355 ERROR: Could not translate '0x3 0x1a4e848 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.355 ERROR: Could not translate '0x3 0x1a52ee8 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.355 ERROR: Could not translate '0x3 0x1aa2e28 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.355 ERROR: Could not translate '0x3 0xa6c568 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.356 ERROR: Could not translate '0x3 0xaab580 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.356 ERROR: Could not translate '0x3 0xb23920 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.356 ERROR: Could not translate '0x3 0xb9f758 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.356 ERROR: Could not translate '0x3 0xc42b28 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.357 ERROR: Could not translate '0x3 0xc8e990 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.357 ERROR: Could not translate '0x3 0xef97d8 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.357 ERROR: Could not translate '0x3 0xfdd1c0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.357 ERROR: Could not translate '0x3 0x130f830 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.357 ERROR: Could not translate '0x3 0x1daa0b0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.358 ERROR: Could not translate '0x3 0x1317ad0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.358 ERROR: Could not translate '0x3 0x1d91e10 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.358 ERROR: Could not translate '0x3 0xe5f318 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.358 ERROR: Could not translate '0x3 0x1b02600 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.359 ERROR: Could not translate '0x3 0x1d96ed0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.359 ERROR: Could not translate '0x3 0xe643d8 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.359 ERROR: Could not translate '0x3 0x131c590 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:14:36.385 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.388 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.392 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.396 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.399 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.403 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.406 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.409 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.413 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.416 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.419 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.423 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.426 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.429 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.433 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.436 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.440 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.443 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.447 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.450 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.454 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.458 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.461 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.465 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.469 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.472 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.476 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.479 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.483 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.486 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.490 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.494 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.497 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.501 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.505 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.508 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.531 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.535 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.539 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:36.542 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.182 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.187 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.190 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.194 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.198 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.202 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.206 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.209 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.213 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.217 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.221 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.225 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.229 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.232 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.236 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.239 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.243 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.246 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.249 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.253 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.256 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.260 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.263 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.267 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.270 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.273 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.277 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.280 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.284 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.287 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.291 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.294 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.297 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.301 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.304 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.307 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.311 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.314 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.317 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:37.321 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:51.971 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:51.975 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:51.978 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:51.981 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:51.985 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:51.988 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:51.991 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:51.995 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:51.998 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.001 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.004 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.008 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.011 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.014 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.018 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.021 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.024 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.027 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.031 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.034 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.038 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.041 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.044 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.048 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.051 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.054 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.058 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.061 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.065 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.068 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.071 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.075 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.078 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.081 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.085 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.088 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.091 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.095 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.098 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:14:52.102 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.245 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.249 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.253 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.256 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.260 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.263 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.267 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.271 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.275 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.280 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.284 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.287 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.291 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.295 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.298 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.302 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.306 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.310 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.314 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.318 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.321 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.325 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.329 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.337 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.341 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.345 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.349 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.353 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.358 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.362 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.365 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.369 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.372 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.376 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.380 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.388 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.392 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.396 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.400 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:07.404 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.008 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.012 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.015 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.018 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.022 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.025 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.029 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.032 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.035 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.039 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.043 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.046 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.049 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.053 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.056 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.060 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.063 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.066 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.070 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.073 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.076 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.080 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.083 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.086 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.090 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.093 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.096 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.100 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.103 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.107 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.110 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.114 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.117 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.121 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.124 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.127 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.131 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.134 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.138 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:22.141 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:23.386 ERROR: Could not translate '0x3 0x1db0350 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:26.337 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:29.288 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:44.313 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 882
+22:15:44.313 ERROR: One or more failures in a multiple request call
+  SevError(2) : CPUPluginTemplate.cpp : 2828
+22:15:44.325 ERROR: No breakpoints have been set
+  SevError(2) : CPUPluginTemplate.cpp : 3656
+22:15:44.336 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.336 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.336 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.336 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.336 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.337 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.337 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.337 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.337 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.345 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:44.349 ERROR: Target not connected
+  SevError(2) : torwtx.cpp : 1482
+22:15:45.416 ERROR: Could not translate '0x3 0xaab640 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:45.417 ERROR: Could not translate '0x3 0xb23988 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:45.417 ERROR: Could not translate '0x3 0xb9f7b0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:45.417 ERROR: Could not translate '0x3 0xc42b68 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:45.417 ERROR: Could not translate '0x3 0xc8e9d0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:45.418 ERROR: Could not translate '0x3 0xe67358 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:45.418 ERROR: Could not translate '0x3 0xeff838 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:45.424 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.427 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.431 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.434 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.437 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.441 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.445 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.448 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.451 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.455 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.458 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.462 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.465 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.468 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.472 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.475 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.478 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.482 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.485 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.488 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.492 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.495 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.499 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.502 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.505 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.509 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.512 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.516 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.519 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.523 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.526 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.548 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.552 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.556 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.560 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.564 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.568 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.572 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.575 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.579 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.583 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.587 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.590 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.594 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.598 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.601 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.605 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.609 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.612 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.616 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.620 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.624 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.627 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.631 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.635 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.639 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.643 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.646 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.650 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.653 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.656 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.660 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:45.675 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:45.742 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:45.752 WARNING: Object file has minimal debug information: /tmpout//nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:45.760 WARNING: Object file has minimal debug information: /tmpout//niorbs.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:45.769 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:45.807 WARNING: Object file has minimal debug information: /tmpout//nipals.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:45.868 WARNING: Object file has minimal debug information: /tmpout//lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:45.930 WARNING: Object file has minimal debug information: /tmpout//target.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:45.950 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:45.952 WARNING: Object file has minimal debug information: /tmpout//vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:45.955 WARNING: Object file has minimal debug information: /tmpout//NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:45.983 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:45.985 WARNING: Object file has minimal debug information: /tmpout//NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:45.988 WARNING: Object file has minimal debug information: /tmpout//ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.014 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:46.020 WARNING: Object file has minimal debug information: /tmpout//visa32.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.025 WARNING: Object file has minimal debug information: /tmpout//nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.051 ERROR: Symbol file already open for this module: SymbolComponent::OpenObjectFile
+  SevError(2) : symbolfile.cpp : 2128
+22:15:46.051 ERROR: Symbol file already open for this module
+  SevError(2) : symbolfile.cpp : 2128
+22:15:46.053 WARNING: Object file has minimal debug information: /tmpout//nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.055 WARNING: Object file has minimal debug information: /tmpout//debug.o
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.074 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:46.078 WARNING: Object file has minimal debug information: /tmpout//tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.082 WARNING: Object file has minimal debug information: /tmpout//libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.102 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:46.105 WARNING: Object file has minimal debug information: /tmpout//ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.108 WARNING: Object file has minimal debug information: /tmpout//NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.126 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:46.130 WARNING: Object file has minimal debug information: /tmpout//NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.133 WARNING: Object file has minimal debug information: /tmpout//NiViRio.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.152 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:46.155 WARNING: Object file has minimal debug information: /tmpout//ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.158 WARNING: Object file has minimal debug information: /tmpout//libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.178 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:46.181 WARNING: Object file has minimal debug information: /tmpout//vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.184 WARNING: Object file has minimal debug information: /tmpout//NiViSrvr.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.826 WARNING: Object file has minimal debug information: /tmpout//nivision.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.845 WARNING: Object file has minimal debug information: /tmpout//NiViAsrl.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:46.881 WARNING: Object file has minimal debug information: /tmpout//NiEnAsrl.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:47.059 WARNING: Object file has minimal debug information: /tmpout//niserial.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:47.120 WARNING: Object file has minimal debug information: /tmpout//NiViPxi.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:47.392 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.396 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.400 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.404 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.408 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.413 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.416 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.420 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.423 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.428 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.432 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.435 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.439 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.445 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.450 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.454 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.458 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.463 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.467 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.471 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.475 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.479 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.483 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.487 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.491 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.495 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.498 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.502 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.506 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.510 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.514 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.538 WARNING: Object file has minimal debug information: /tmpout//FRC_FPGA.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:47.563 ERROR: Object module already loaded in memory
+  SevError(2) : tosmodule.cpp : 1801
+22:15:47.567 WARNING: Object file has minimal debug information: /tmpout//NiViEnet.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:47.571 WARNING: Object file has minimal debug information: /tmpout//NiViUsb.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:47.611 ERROR: Could not translate '0x3 0x1b0d7e0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:47.611 ERROR: Could not translate '0x3 0x1b5c210 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:47.684 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:47.687 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.022 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.025 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.029 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.033 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.036 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.039 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.042 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.046 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.049 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.053 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.056 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.060 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.063 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.066 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.070 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.073 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.076 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.080 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.084 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.087 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.091 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.094 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.097 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.101 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.104 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.108 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.111 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.115 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.119 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.122 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.125 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:52.395 ERROR: Could not translate '0x3 0x1b16100 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:52.396 ERROR: Could not translate '0x3 0xfdd200 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:52.428 WARNING: Object file has minimal debug information: /tmpout//FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:52.457 WARNING: Object file has minimal debug information: /tmpout//FRC_BlackJagBridgePlugin.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:52.481 ERROR: Could not translate '0x3 0xe61450 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:52.524 ERROR: Could not translate '0x3 0x1b057e0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:52.526 ERROR: Could not translate '0x3 0x1b0da80 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:52.639 ERROR: Could not translate '0x3 0xe66510 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:52.639 ERROR: Could not translate '0x3 0x1b31840 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:52.640 ERROR: Could not translate '0x3 0x1b37910 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:53.966 ERROR: Could not translate '0x3 0x2335798 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:54.223 WARNING: Object file has minimal debug information: /tmpout//FRC_UserProgram.out
+  SevWarning(1) : symbolmanager.cpp : 125
+22:15:54.273 ERROR: Could not translate '0x3 0x2346b20 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:54.274 ERROR: Could not translate '0x3 0x23483a0 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:54.274 ERROR: Could not translate '0x3 0x234f1e8 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:54.274 ERROR: Could not translate '0x3 0x2355568 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:54.275 ERROR: Could not translate '0x3 0x235b990 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:15:58.735 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:58.835 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:58.838 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:58.889 ERROR: Invalid Object Id
+  SevError(2) : vxWorksPluginCustomData.cpp : 53
+22:15:58.997 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:15:59.975 ERROR: Could not translate '0x3 0x237e220 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:16:02.102 ERROR: Could not translate '0x3 0x2383f60 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:16:06.457 ERROR: Could not translate '0x3 0x238b9e8 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:16:07.057 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.061 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.066 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.070 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.074 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.079 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.083 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.088 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.092 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.096 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.101 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.105 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.109 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.113 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.118 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.122 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.126 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.131 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.136 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.140 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.145 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.149 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.153 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.158 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.162 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.166 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.171 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.175 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.180 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.184 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.188 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.192 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.197 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.201 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.205 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.209 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.214 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.218 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.222 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.227 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.231 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.235 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.240 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.244 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.248 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.252 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.257 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:07.260 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.046 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.049 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.053 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.056 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.059 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.063 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.066 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.070 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.073 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.076 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.080 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.084 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.087 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.090 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.093 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.097 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.100 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.103 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.107 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.110 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.113 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.116 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.120 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.123 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.127 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.130 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.134 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.137 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.140 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.144 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.147 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.151 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.154 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.157 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.160 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.164 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.167 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.171 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.174 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.177 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.181 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.184 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.188 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.191 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.196 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.199 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:22.202 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.051 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.054 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.057 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.061 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.064 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.067 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.071 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.074 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.077 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.081 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.084 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.087 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.091 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.094 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.098 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.101 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.105 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.108 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.111 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.115 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.118 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.122 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.125 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.128 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.133 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.136 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.140 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.143 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.146 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.150 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.153 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.157 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.160 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.164 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.167 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.170 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.174 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.177 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.182 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.186 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.189 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.192 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.196 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.199 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.204 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.207 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:37.211 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:48.975 ERROR: Could not translate '0x3 0x2390298 0x0 0x0' key to a TOS object id
+  SevError(2) : tctoscallwrappers.cpp : 2426
+22:16:49.388 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.085 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.090 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.095 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.100 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.105 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.110 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.115 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.119 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.124 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.129 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.134 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.139 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.144 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.149 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.154 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.159 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.164 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.169 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.174 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.179 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.184 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.189 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.194 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.198 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.203 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.208 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.212 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.217 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.222 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.226 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.231 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.235 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.240 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.245 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.249 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.254 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.258 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.263 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.268 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.272 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.277 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.282 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.286 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.291 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.295 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.300 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:16:52.305 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.064 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.067 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.071 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.074 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.078 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.081 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.084 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.087 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.091 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.094 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.097 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.101 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.104 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.107 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.110 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.114 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.117 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.120 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.124 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.127 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.132 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.177 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.181 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.184 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.188 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.191 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.194 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.197 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.201 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.204 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.207 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.211 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.214 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.217 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.221 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.224 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.227 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.230 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.234 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.237 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.241 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.244 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.247 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.251 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.254 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.257 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:07.261 ERROR: Invalid Object Id
+  SevError(2) : tctoscallwrappers.cpp : 2403
+22:17:22.355 ERROR: target server back-end disconnected
+  SevError(2) : torwtx.cpp : 1504
+22:17:22.368 ERROR: target server back-end disconnected
+  SevError(2) : torwtx.cpp : 1504
+22:17:22.369 ERROR: target server back-end disconnected
+  SevError(2) : torwtx.cpp : 1504
+22:17:22.396 ERROR: target server back-end disconnected
+  SevError(2) : torwtx.cpp : 1504
