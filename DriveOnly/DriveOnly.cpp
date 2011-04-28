@@ -399,6 +399,11 @@ public:
       else if (manip.GetRawButton(12))
         HeightSetpoint = 25;
 
+      if (<HAT UP>)
+        HeightSetpoint += 0.5;
+      else if (<HAT DOWN>)
+        HeightSetpoint -= 0.5;
+
       if (manip.GetRawButton(1)) {
         rollerTop.Set(1);
         rollerBottom.Set(-1);
