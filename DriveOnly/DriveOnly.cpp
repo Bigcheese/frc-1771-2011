@@ -78,7 +78,7 @@ public:
   DashboardDataSender dds;
   CANJaguar left0, left1, right0, right1, rollerTop, rollerBottom, uppyDowny;
   Joystick left, right, manip; 
-  Compressor blower;  
+  Compressor blower;
   Encoder leftSide;
   Encoder rightSide;
   Encoder HeightEnc;
