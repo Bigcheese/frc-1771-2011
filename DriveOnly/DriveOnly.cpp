@@ -76,7 +76,7 @@ public:
   Gyro gyro;
   VexUltrasonic ultraho;
   DashboardDataSender dds;
-  CANJaguar left0, left1, right0, right1, rollerTop, rollerBottom, uppyDowny;
+  CANJaguar left0, left1, right0, right1, rollerTop, rollerBottom, uppyDowny0, uppyDowny1;
   Joystick left, right, manip; 
   Compressor blower;
   Encoder leftSide;
@@ -109,7 +109,8 @@ public:
   , right1(22)
   , rollerTop(29)
   , rollerBottom(20)
-  , uppyDowny(27)
+  , uppyDowny0(27)
+  , uppyDowny1(??)
   , left(1)
   , right(2)
   , manip(3)
@@ -163,7 +164,8 @@ public:
     float current = self.HeightEnc.GetDistance();    
     float error = (self.HeightSetpoint - current);
     float output = rangeness(error / 8) + 0.11;
-    self.uppyDowny.Set(output);
+    self.uppyDowny0.Set(output);
+    self.uppyDowny1.Set(output);
     self.Error = error;
     self.UnfilteredOutput = error / 8;
   }
@@ -456,7 +458,7 @@ public:
       
       
       // printf("Hello from the UltraHO!!!!! %f\n", ultraho.GetDistance());
-      dds.sendIOPortData(HeightSetpoint, HeightEnc.GetDistance(), uppyDowny.Get(), Error, UnfilteredOutput, gyro.GetAngle());
+      dds.sendIOPortData(HeightSetpoint, HeightEnc.GetDistance(), uppyDowny0.Get(), Error, UnfilteredOutput, gyro.GetAngle());
     }
     heightUpdater.Stop();
   }
